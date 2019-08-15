@@ -21,10 +21,9 @@ class PageController extends Controller
         if(!Pages::where('page_alias', $page_name)->first() !== null) {
             $pages = Pages::where('page_alias', $page_name)->first();
         }
-//        else {
-//            abort(404);
-//            dd(\Monolog\Handler\error_log());
-//        }
+        else {
+            abort(404);
+        }
         $articles = Articles::all();
         $portfolio = Portfolio::all();
         $services = Services::all();

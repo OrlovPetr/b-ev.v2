@@ -1,0 +1,134 @@
+@media only screen and (orientation: landscape) {
+    #page_404 {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page_404_img {
+        width: 40vw;
+        height: 40vw;
+        margin-right: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        background-image: url("/img/errors/404bg.png");
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page_404_inner_img {
+        width: 15vw;
+    }
+
+    #page_404_info_block {
+        width: 40vw;
+    }
+
+    #page_404_info_block * {
+        margin-bottom: 10px;
+    }
+
+    #page_404_buttons_block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    #page_404 {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page_404_img {
+        width: 80vw;
+        height: 80vw;
+        margin-right: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        background-image: url("/img/errors/404bg.png");
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page_404_inner_img {
+        width: 40vw;
+    }
+
+    #page_404_info_block {
+        width: 80vw;
+    }
+
+    #page_404_info_block * {
+        margin-bottom: 10px;
+    }
+
+    #page_404_buttons_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 320px) and (max-width: 1279px) {
+    #page_404 {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page_404_img {
+        width: 80vw;
+        height: 80vw;
+        margin-right: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        background-image: url("/img/errors/404bg.png");
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page_404_inner_img {
+        width: 40vw;
+    }
+
+    #page_404_info_block {
+        width: 80vw;
+    }
+
+    #page_404_info_block * {
+        margin-bottom: 10px;
+    }
+
+    #page_404_buttons_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

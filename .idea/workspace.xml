@@ -14,6 +14,14 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Blade" />
+      </list>
+    </option>
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -106,12 +114,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/errors" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\brightandeasy.loc\public\img\errors" />
       <recent name="D:\OSPanel\domains\brightandeasy.loc\resources\views" />
       <recent name="D:\OSPanel\domains\brightandeasy.loc\public\js" />
       <recent name="D:\OSPanel\domains\brightandeasy.loc\public" />
@@ -147,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565888731181</updated>
       <workItem from="1565888732968" duration="521000" />
-      <workItem from="1565889513321" duration="271000" />
+      <workItem from="1565889513321" duration="2484000" />
     </task>
     <servers />
   </component>

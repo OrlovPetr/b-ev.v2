@@ -1,0 +1,23 @@
+#page_inbuild {
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page_inbuild_wrapper {
+    width: 90vw;
+    height: 80vh;
+    text-align: center;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/img/portfolio/portfolio_build.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

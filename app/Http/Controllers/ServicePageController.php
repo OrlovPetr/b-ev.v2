@@ -14,9 +14,9 @@ class ServicePageController extends Controller
         if(Pages::where('page_alias', $page)->first() !== null) {
             $pages = Pages::where('page_alias', $page)->first();
         }
-//        else {
-//            abort(404);
-//        }
+        else {
+            abort(404);
+        }
         $clients = explode('|', $service->service_clients);
         $differences = explode('|', $service->service_differences);
 
