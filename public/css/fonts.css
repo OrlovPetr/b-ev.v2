@@ -1,0 +1,267 @@
+h1, h2, h4, h6, header a, header button, .main_button, .portfolio_page_nav_button, #portfolio_page_main .owl-carousel .owl-nav .owl-next, #portfolio_page_main .owl-carousel .owl-nav .owl-prev, .services_page_nav_button, .input_field {
+    font-family: "Montserrat", sans-serif;
+}
+
+h3, h5, p, .small_p, #main_page_content_links_container a, #contacts_short_contacts_container a, #contacts_short_footer_menu_copyright_link, #site_menu_contacts a, .contact_page_form_el label, .contact_page_form_textarea label {
+    font-family: "Roboto Slab", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 8vh;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+header h2 {
+    font-size: 3vh;
+}
+
+h3 {
+    font-size: 3vh;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 2.5vh;
+    font-weight: 300;
+}
+
+h6 {
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+p, #contacts_short_contacts_container a {
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+.small_p {
+    font-size: 2vh;
+}
+
+.very_small_p {
+    font-size: 1.5vh;
+}
+
+#header_menu p {
+    font-size: 1.2vh;
+}
+
+#main_link_to_services p {
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+#contacts_short_footer_menu_main_link_text p {
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+#contacts_short_footer_menu_copyright_link {
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+.main_button {
+    font-size: 3.5vh;
+}
+
+.portfolio_page_nav_button {
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+.services_page_nav_button {
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+#main_page_content_links_container a {
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+#portfolio_page_main .owl-carousel .owl-nav .owl-next, #portfolio_page_main .owl-carousel .owl-nav .owl-prev {
+    font-size: 4vh;
+    color: #FFCB99;
+}
+
+.site_menu_link p {
+    font-size: 4vh;
+}
+
+#site_menu_contacts a {
+    font-size: 2.5vh;
+}
+
+.contact_page_form_el label, .contact_page_form_textarea label {
+    font-size: 2.5vh;
+    font-weight: 300;
+}
+
+.input_field {
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+@media only screen and (orientation: portrait) and (min-width: 320px) and (max-width: 800px) {
+    header h2 {
+        font-size: 1vh;
+    }
+
+    h1 {
+        font-size: 6vh;
+    }
+
+    h2 {
+        font-size: 5vh;
+    }
+
+    h3 {
+        font-size: 4vh;
+    }
+
+    h4 {
+        font-size: 3vh;
+    }
+
+    h5 {
+        font-size: 2.5vh;
+    }
+
+    h6 {
+        font-size: 2.5vh;
+    }
+
+    #main_page_content_links_container a {
+        font-size: 1.5vh;
+    }
+
+    #header_menu p {
+        font-size: 1vh;
+    }
+
+    p, #contacts_short_contacts_container a {
+        font-size: 2.5vh;
+        font-weight: 400;
+    }
+
+    .main_button {
+        font-size: 4vh;
+    }
+
+    .portfolio_page_nav_button {
+        font-size: 2vh;
+    }
+
+    .services_page_nav_button {
+        font-size: 2vh;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 480px) and (max-width: 800px) {
+    h1 {
+        font-size: 10vh;
+    }
+
+    h2 {
+        font-size: 8vh;
+    }
+
+    header h2 {
+        font-size: 3vh;
+    }
+
+    h3 {
+        font-size: 5vh;
+    }
+
+    h4 {
+        font-size: 4vh;
+    }
+
+    h5 {
+        font-size: 4vh;
+    }
+
+    h6 {
+        font-size: 4vh;
+    }
+
+    p, #contacts_short_contacts_container a {
+        font-size: 4vh;
+    }
+
+    .small_p {
+        font-size: 4vh;
+    }
+
+    .very_small_p {
+        font-size: 3vh;
+    }
+
+    #header_menu p {
+        font-size: 2vh;
+    }
+
+    #main_link_to_services p {
+    }
+
+    #contacts_short_footer_menu_main_link_text p {
+        font-size: 2vh;
+    }
+
+    #contacts_short_footer_menu_copyright_link {
+        font-size: 2vh;
+    }
+
+    .main_button {
+        font-size: 5vh;
+    }
+
+    .portfolio_page_nav_button {
+        font-size: 2.5vh;
+    }
+
+    .services_page_nav_button {
+        font-size: 2.5vh;
+    }
+
+    #main_page_content_links_container a {
+        font-size: 3vh;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-nav .owl-next, #portfolio_page_main .owl-carousel .owl-nav .owl-prev {
+        font-size: 4vh;
+    }
+
+    .site_menu_link p {
+        font-size: 4vh;
+    }
+
+    #site_menu_contacts a {
+        font-size: 3vh;
+    }
+
+    .contact_page_form_el label, .contact_page_form_textarea label {
+        font-size: 5vh;
+    }
+
+    .input_field {
+        font-size: 4vh;
+    }
+}

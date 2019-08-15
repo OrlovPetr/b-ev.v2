@@ -1,0 +1,7 @@
+@include('layouts.head')
+@include('layouts.preloader')
+@include('layouts.main_menu')
+@include('layouts.navigation')
+@include('services.services')
+@include('layouts.contacts')
+@include('layouts.footer')

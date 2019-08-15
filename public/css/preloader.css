@@ -1,0 +1,50 @@
+#main_preloader {
+    position: fixed;
+    z-index: 10000;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity ease 0.5s;
+}
+
+#main_preloader_wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_preloader_img {
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("/img/preloader/main_logo_medium.png");
+}
+
+#main_preloader_load_circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border-bottom: solid 15px #6699FF;
+    border-top: solid 15px #6699FF;
+    border-left: solid 15px #6699FF;
+    border-right: solid 15px transparent;
+    margin-top: 20px;
+    animation: preloader_load 1s ease-in-out infinite;
+}
+
+@keyframes preloader_load {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

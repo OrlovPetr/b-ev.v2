@@ -1,0 +1,445 @@
+/* PORTFOLIO MAIN */
+
+#portfolio_page_main {
+    width: 100vw;
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio_page_main .owl-carousel {
+    margin-top: 50px;
+    position: relative;
+    overflow-y: hidden;
+    z-index: 100;
+}
+
+#portfolio_page_main .owl-carousel .owl-stage-outer {
+    overflow-y: hidden;
+    z-index: 100;
+}
+
+#portfolio_page_main .owl-carousel .owl-stage-outer .owl-stage {
+    padding: 10px 0;
+    overflow-y: hidden;
+    z-index: 100;
+}
+
+#portfolio_page_main .owl-carousel .owl-stage-outer .owl-stage .owl-item {
+    position: relative;
+    padding: 20px;
+    width: 100vw;
+    height: calc(100vw / 16 * 9);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow-y: hidden;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio_page_main_slide_filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 0.7);
+    z-index: 110;
+}
+
+.portfolio_page_main_slide_wrapper {
+    width: 60vw;
+    z-index: 120;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio_page_main_slide_logo {
+    width: 15.5vw;
+    height: 15.5vw;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#portfolio_page_main .owl-carousel .owl-nav {
+    position: absolute;
+    top: calc(50% - 24px);
+    height: 2vw;
+    width: 100vw;
+    z-index: 200;
+}
+
+#portfolio_page_main .owl-carousel .owl-nav .owl-prev, #portfolio_page_main .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    background-color: #FFCB99;
+    z-index: 300;
+    transition: all ease-in-out 0.3s;
+}
+
+#portfolio_page_main .owl-carousel .owl-nav .owl-prev:hover, #portfolio_page_main .owl-carousel .owl-nav .owl-next:hover {
+    background-color: #99CBFF;
+}
+
+#portfolio_page_main .owl-carousel .owl-nav .owl-prev {
+    left: 30px;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+}
+
+#portfolio_page_main .owl-carousel .owl-nav .owl-next {
+    left: calc(100vw - 48px - 30px);
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
+
+#portfolio_page_main .owl-carousel .owl-dots {
+    position: absolute;
+    width: calc(1vw * 9 + 10px * 8);
+    height: 2vw;
+    bottom: 40px;
+    left: calc(50% - (1.5vw * 9 + 10px * 8) / 2);
+    z-index: 300;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio_page_main .owl-carousel .owl-dots .owl-dot {
+    width: 1vw;
+    height: 1vw;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #FFCB99;
+    transition: all ease-in-out 0.3s;
+    opacity: 0.8;
+}
+
+#portfolio_page_main .owl-carousel .owl-dots .owl-dot:hover {
+    background-color: #996600;
+}
+
+#portfolio_page_main .owl-carousel .owl-dots .active {
+    background-color: #99CBFF;
+}
+
+#portfolio_page_main .owl-carousel .owl-dots .owl-dot:last-child {
+    margin-right: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+/* PORTFOLIO HOW WE WORK */
+
+#portfolio_page_howwework {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+#portfolio_page_howwework h2 {
+    margin-bottom: 20px;
+ }
+
+#portfolio_page_howwework h3 {
+    margin-bottom: 50px;
+}
+
+#portfolio_page_howwework_img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url("/img/portfolio/portfolio_build.png");
+}
+
+#portfolio_page_howwework_slider {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#portfolio_page_howwework_slider h4 {
+    margin-bottom: 20px;
+}
+
+#portfolio_page_howwework_slider_navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio_page_howwework_slider_nav_button {
+    margin: 0;
+    border: none;
+    transition: all ease-in-out 0.3s;
+    padding: 5px 0;
+}
+
+.portfolio_page_howwework_slider_nav_button:hover {
+    background-color: #6699FF;
+}
+
+#portfolio_page_howwework_slider_box {
+    width: 100vw;
+}
+
+.portfolio_page_howwework_slide {
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    animation-duration: 1s;
+    transition: all ease-in-out 3s;
+}
+
+.portfolio_page_howwework_slide p {
+    margin-top: 20px;
+}
+
+#portfolio_page_howwework_img_box {
+    width: 60vw;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#portfolio_page_howwework_img_box_img {
+    position: relative;
+    width: 25%;
+    margin-right: 20px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("/img/portfolio/portfolio_article.png");
+}
+
+#portfolio_page_howwework_img_box_text_box {
+    position: relative;
+    width: calc(75% - 20px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#portfolio_page_howwework_img_box_text_box h4 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (orientation: portrait) and (min-width: 320px) and (max-width: 800px) {
+
+    /* PORTFOLIO SLIDER */
+    #portfolio_page_main {
+        padding: 10vh 0 0 0;
+        text-align: center;
+    }
+
+    #portfolio_page_main .owl-carousel {
+        margin-top: 20px;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-stage-outer .owl-stage .owl-item {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio_page_main_slide_wrapper {
+        width: 80vw;
+    }
+
+    .portfolio_page_main_slide_logo {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-nav {
+        display: none;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-dots {
+        width: 80vw;
+        height: 4vw;
+        left: 10vw;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-dots .owl-dot {
+        width: 3vw;
+        height: 3vw;
+    }
+
+/*  ------------------------------------------------------------------------  */
+
+/*  STAGES SLIDER  */
+
+    #portfolio_page_howwework {
+        padding-top: 30px;
+    }
+
+    #portfolio_page_howwework h2 {
+        margin-bottom: 10px;
+    }
+
+    #portfolio_page_howwework h3 {
+        margin-bottom: 20px;
+    }
+
+    #portfolio_page_howwework_slider {
+        margin-bottom: 20px;
+    }
+
+    #portfolio_page_howwework_slider_navbar {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .portfolio_page_howwework_slide {
+        padding: 20px;
+    }
+
+    #portfolio_page_howwework_img_box {
+        width: 90vw;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #portfolio_page_howwework_img_box_img {
+        position: relative;
+        width: 60%;
+        margin-right: 0;
+    }
+
+    #portfolio_page_howwework_img_box_text_box {
+        width: 90vw;
+    }
+
+    #portfolio_page_howwework_img_box_text_box h4 {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 480px) and (max-width: 800px) {
+
+    /* PORTFOLIO SLIDER */
+    #portfolio_page_main {
+        padding: 10vh 0 0 0;
+        text-align: center;
+    }
+
+    #portfolio_page_main .owl-carousel {
+        margin-top: 20px;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-stage-outer .owl-stage .owl-item {
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio_page_main_slide_wrapper {
+        width: 80vw;
+    }
+
+    .portfolio_page_main_slide_logo {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-nav {
+        display: none;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-dots {
+        width: 80vw;
+        height: 4vw;
+        left: 10vw;
+    }
+
+    #portfolio_page_main .owl-carousel .owl-dots .owl-dot {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    /*  ------------------------------------------------------------------------  */
+
+    /*  STAGES SLIDER  */
+
+    #portfolio_page_howwework {
+        padding-top: 30px;
+    }
+
+    #portfolio_page_howwework h2 {
+        margin-bottom: 10px;
+    }
+
+    #portfolio_page_howwework h3 {
+        margin-bottom: 20px;
+    }
+
+    #portfolio_page_howwework_slider {
+        margin-bottom: 20px;
+    }
+
+    #portfolio_page_howwework_slider_navbar {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .portfolio_page_howwework_slide {
+        padding: 20px;
+    }
+
+    #portfolio_page_howwework_img_box {
+        width: 90vw;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #portfolio_page_howwework_img_box_img {
+        position: relative;
+        width: 60%;
+        margin-right: 0;
+    }
+
+    #portfolio_page_howwework_img_box_text_box {
+        width: 90vw;
+    }
+
+    #portfolio_page_howwework_img_box_text_box h4 {
+        margin-bottom: 10px;
+    }
+}

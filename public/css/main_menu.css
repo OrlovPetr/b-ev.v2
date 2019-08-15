@@ -1,0 +1,123 @@
+#site_menu {
+    position: fixed;
+    z-index: 6000;
+    width: 100vw;
+    height: 100vh;
+    top: -100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: top ease-in-out 0.5s;
+}
+
+#site_menu_close_button {
+    content: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#site_menu_close_button div {
+    position: relative;
+    width: 75%;
+    height: 75%;
+    clip-path: polygon(0% 15%, 15% 0%, 50% 35%, 85% 0%, 100% 15%, 65% 50%, 100% 85%, 85% 100%, 50% 65%, 15% 100%, 0% 85%, 35% 50%);
+    transition: all ease-in-out 0.5s;
+}
+
+#site_menu_close_button:hover div {
+    background-color: #6699FF;
+}
+
+#site_menu_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#site_menu_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site_menu_link {
+    margin-bottom: 10px;
+}
+
+.site_menu_link p {
+    transition: all ease-in-out 0.3s;
+}
+
+.site_menu_link div {
+    position: relative;
+    width: 0;
+    height: 2px;
+    border-radius: 1px;
+    transition: all ease-in-out 0.3s;
+}
+
+.site_menu_link:hover p {
+    color: #6699FF;
+}
+
+.site_menu_link:hover div {
+    background-color: #6699FF;
+    width: 100%
+}
+
+#site_menu_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#site_menu_contacts a {
+    transition: all ease-in-out 0.3s;
+}
+
+#site_menu_contacts a:first-child {
+    margin-bottom: 10px;
+}
+
+#site_menu_contacts a:hover {
+    color: #6699FF;
+}
+
+@media only screen and (orientation: portrait) and (min-width: 320px) and (max-width: 800px) {
+    #site_menu {
+        padding: 100px 10px 30px;
+    }
+
+    #site_menu_close_button {
+        top: 20px;
+        right: calc(100vw / 2 - 24px);
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 320px) and (max-width: 800px) {
+    #site_menu {
+        padding: 10px;
+    }
+
+    #site_menu_close_button {
+        top: 20px;
+        right: 20px;
+        width: 36px;
+        height: 36px;
+    }
+}

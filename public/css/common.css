@@ -1,0 +1,35 @@
+.main_button {
+    padding: 5px 30px;
+    margin: 20px;
+    border-radius: 2px;
+    border: 2px solid #FFCB66;
+    background-color: transparent;
+    display: inline-block;
+    transition: all ease 0.5s;
+}
+
+.main_button:hover {
+    background-color: #6666CB;
+    border: 2px solid #FFCB66;
+    color: #FFCB66;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+@media only screen and (orientation: portrait) and (min-width: 320px) and (max-width: 480px) {
+    .main_button {
+        padding: 5px 10px;
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-width: 480px) and (max-width: 480px) {
+    .main_button {
+        padding: 10px 20px;
+        margin: 10px;
+        text-align: center;
+    }
+}

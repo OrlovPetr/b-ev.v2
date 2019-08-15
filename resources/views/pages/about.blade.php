@@ -1,0 +1,8 @@
+@include('layouts.head')
+@include('layouts.preloader')
+@include('layouts.main_menu')
+@include('layouts.navigation')
+@include('about.main')
+@include('about.team')
+@include('layouts.contacts')
+@include('layouts.footer')

@@ -1,0 +1,115 @@
+/* BACKGROUND COLOR PALETTE */
+
+.bg_main_black {
+    background-color: #1E1E1E;
+}
+
+.bg_main_white {
+    background-color: #F5F5F5;
+}
+
+.bg_main_blue {
+    background-color: #6699FF;
+}
+
+.bg_light_blue {
+    background-color: #99CBFF;
+}
+
+.bg_main_violet {
+    background-color: #6666CB;
+}
+
+.bg_dark_violet {
+    background-color: #343499;
+}
+
+.bg_light_violet {
+     background-color: #9999FF;
+}
+
+.bg_main_pink {
+    background-color: #CB99FF;
+}
+
+.bg_main_green {
+    background-color: #66CBCB;
+}
+
+.bg_dark_green {
+    background-color: #009999;
+}
+
+.bg_light_green {
+    background-color: #99FFFF;
+}
+
+.bg_main_sandy {
+    background-color: #FFCB66;
+}
+
+.bg_dark_sandy {
+    background-color: #996600;
+}
+
+.bg_light_sandy {
+    background-color: #FFCB99;
+}
+
+/* FONT COLOR PALETTE */
+
+.font_main_black {
+    color: #1E1E1E;
+}
+
+.font_main_white {
+    color: #F5F5F5;
+}
+
+.font_main_blue {
+    color: #6699FF;
+}
+
+.font_light_blue {
+    color: #99CBFF;
+}
+
+.font_main_violet {
+    color: #6666CB;
+}
+
+.font_dark_violet {
+    color: #343499;
+}
+
+.font_light_violet {
+    color: #9999FF;
+}
+
+.font_main_pink {
+    color: #CB99FF;
+}
+
+.font_main_green {
+    color: #66CBCB;
+}
+
+.font_dark_green {
+    color: #009999;
+}
+
+.font_light_green {
+    color: #99FFFF;
+}
+
+.font_main_sandy {
+    color: #FFCB66;
+}
+
+.font_dark_sandy {
+    color: #996600;
+}
+
+.font_light_sandy {
+    color: #FFCB99;
+}
