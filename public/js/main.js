@@ -20,16 +20,16 @@ window.addEventListener('DOMContentLoaded', function () {
         })
     }
 
-    window.addEventListener('resize', function () {
-        for (let i = 0; i < linkA.length; i++) {
-            mainPreloader.style.display = "flex";
-            mainPreloader.classList.add('fadeIn');
-            mainPreloader.classList.remove('fadeOut');
-            $('*').css('overflow-y', 'hidden');
-
-            setTimeout(function () {
-                window.location.reload();
-            }, 500);
-        }
-    });
+    // window.addEventListener('resize', function () {
+    //     for (let i = 0; i < linkA.length; i++) {
+    //         mainPreloader.style.display = "flex";
+    //         mainPreloader.classList.add('fadeIn');
+    //         mainPreloader.classList.remove('fadeOut');
+    //         $('*').css('overflow-y', 'hidden');
+    //
+    //         setTimeout(function () {
+    //             window.location.reload();
+    //         }, 500);
+    //     }
+    // });
 });

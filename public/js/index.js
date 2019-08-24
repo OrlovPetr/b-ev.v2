@@ -5,6 +5,8 @@ window.addEventListener('DOMContentLoaded', function () {
         items: 1,
         animateOut: 'slideOutLeft',
         animateIn: 'slideInRight',
+        mouseDrag: false,
+        touchDrag: false,
         loop: true,
         autoplay: true,
         smartSpeed: 500,
@@ -15,6 +17,8 @@ window.addEventListener('DOMContentLoaded', function () {
         items: 1,
         animateOut: 'slideOutUp',
         animateIn: 'slideInUp',
+        mouseDrag: false,
+        touchDrag: false,
         loop: true,
         autoplay: true,
         smartSpeed: 500,
@@ -25,6 +29,8 @@ window.addEventListener('DOMContentLoaded', function () {
         items: 1,
         animateOut: 'slideOutDown',
         animateIn: 'slideInDown',
+        mouseDrag: false,
+        touchDrag: false,
         loop: true,
         autoplay: true,
         smartSpeed: 500,
@@ -35,6 +41,8 @@ window.addEventListener('DOMContentLoaded', function () {
         items: 1,
         animateOut: 'fadeOut',
         animateIn: 'flipInX',
+        mouseDrag: false,
+        touchDrag: false,
         loop: true,
         autoplay: true,
         smartSpeed: 250,
@@ -42,7 +50,7 @@ window.addEventListener('DOMContentLoaded', function () {
     });
 
     let options = {
-        strings: ["^2000Мы создаем яркий и легкий дизайн"],
+        strings: ["^2000Создаем яркий и легкий дизайн"],
         smartBackspace: false,
         showCursor: false,
         typeSpeed: 80

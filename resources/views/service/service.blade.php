@@ -16,13 +16,13 @@
         </div>
         <div id="service_page_about_block">
             <div id="service_page_for_who_block">
-                <h4 class="font_main_black">Кому подойдет</h4>
+                <h4 class="font_main_black">Кому может пригодиться:</h4>
                 @foreach ($clients as $client)
                     <p class="font_main_blue">&#10004;&nbsp;{{ $client }}</p>
                 @endforeach
             </div>
             <div id="service_page_why_block">
-                <h4 class="font_main_black">Почему стоит заказать у нас</h4>
+                <h4 class="font_main_black">Почему мы лучше:</h4>
                 @foreach ($differences as $difference)
                     <p class="font_main_blue small_p">&#10004;&nbsp;{{ $difference }}</p>
                 @endforeach

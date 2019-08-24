@@ -21,11 +21,13 @@
 
 #service_page_bg_layer_1 {
     clip-path: polygon(0% 10%, 50% 40%, 100% 30%, 100% 40%, 50% 70%, 0% 60%);
+    -webkit-clip-path: polygon(0% 10%, 50% 40%, 100% 30%, 100% 40%, 50% 70%, 0% 60%);
     z-index: 120;
 }
 
 #service_page_bg_layer_2 {
     clip-path: polygon(0% 0%, 50% 30%, 100% 20%, 100% 60%, 50% 90%, 0% 80%);
+    -webkit-clip-path: polygon(0% 0%, 50% 30%, 100% 20%, 100% 60%, 50% 90%, 0% 80%);
     z-index: 110;
 }
 

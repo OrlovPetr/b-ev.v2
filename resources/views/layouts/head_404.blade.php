@@ -19,7 +19,7 @@
           rel="stylesheet">
 
     {{--  Header  --}}
-    <link rel="icon" href="{{ asset('/img/header/main_logo_black_big.png') }}"
+    <link rel="icon" href="{{ asset('/favicon.png') }}"
           type="image/png">
     <link rel="canonical" href="{{ Request::url() }}"/>
 

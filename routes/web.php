@@ -13,6 +13,9 @@
 
 Route::group([], function () {
     Route::match(['GET', 'POST'], '/', ['uses' => 'IndexController@execute', 'as' => 'index']);
+    Route::match(['GET', 'POST'], '/login', 'HomeController@home');
+//    Route::match(['GET', 'POST'], '/register', 'HomeController@home');
+    Route::match(['GET', 'POST'], '/admin', ['uses' => 'AdminIndexController@execute', 'as' => 'admin'])->middleware('auth');
     Route::match(['GET', 'POST'], '/{page}', ['uses' => 'PageController@execute', 'as' => 'page']);
 });
 
@@ -28,3 +31,11 @@ Route::group(['prefix' => 'services'], function () {
 //    Route::match(['GET', 'POST'], '/{article}', 'ArticlePageController@execute');
 //});
 //
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::match(['GET', 'POST'], '/logout', 'AdminLogout@execute')->middleware('auth');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
