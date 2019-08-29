@@ -91,12 +91,23 @@ class PageController extends Controller
                         'guest_phone' => $guest_phone
                     ];
 
-                    $result = Mail::send('layouts.mail', ['array' => $array], function ($message) use ($array) {
-                        $message->from($array['from_email'], $array['from_name']);
-                        $message->to($array['to_email'])->subject($array['subject']);
-                    });
+                    function getCaptcha($SecretKey) {
+                        $Response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LeHua4UAAAAAHOIXzdACJmIOKPJbdaE9iZBRt2n&response=".$SecretKey);
+                        $return = json_decode($Response);
+                        return $return;
+                    }
+                    $return = getCaptcha($data['g-recaptcha-response']);
 
-                    return redirect('/thanks');
+                    if (($return->success === true) && ($return->score > 0.5)) {
+                        $result = Mail::send('layouts.mail', ['array' => $array], function ($message) use ($array) {
+                            $message->from($array['from_email'], $array['from_name']);
+                            $message->to($array['to_email'])->subject($array['subject']);
+                        });
+
+                        return redirect('/thanks');
+                    } else {
+                        return view('pages.contact', $array);
+                    }
                 }
             } else {
                 $array = [

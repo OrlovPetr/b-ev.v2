@@ -6,5 +6,12 @@
 <script src="{{ URL::asset('js/' . $pages->page_script) }}" type="application/javascript"></script>
 <script src="{{ URL::asset('js/contacts.js') }}" type="application/javascript"></script>
 <script src="{{ URL::asset('js/main.js') }}" type="application/javascript"></script>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LeHua4UAAAAAKQqf5pIVyIFjlhWK9OyrpYQk4K8', {action: 'homepage'}).then(function(token) {
+            document.getElementById('g-recaptcha-response').value = token;
+        });
+    });
+</script>
 </body>
 </html>

@@ -48,6 +48,7 @@
                 <label for="guest_message" class="font_main_white" title="Опишите подробнее интересующие Вас моменты или замечания">Текст Вашего сообщения</label>
                 <textarea name="guest_message" id="guest_message" class="font_main_blue bg_main_white input_field"></textarea>
             </div>
+            <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
             <button type="submit" id="contact_page_form_submit" class="main_button font_main_sandy" title="Отправьте нам Ваше сообщение">Отправить</button>
         </form>
     </div>

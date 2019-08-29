@@ -22,7 +22,7 @@
                 @endforeach
             </div>
             <div id="service_page_why_block">
-                <h4 class="font_main_black">Почему мы лучше:</h4>
+                <h4 class="font_main_black">Почему стоит выбрать нас:</h4>
                 @foreach ($differences as $difference)
                     <p class="font_main_blue small_p">&#10004;&nbsp;{{ $difference }}</p>
                 @endforeach

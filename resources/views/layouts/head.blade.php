@@ -2,7 +2,8 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {{--  ROBOTS  --}}
@@ -14,6 +15,8 @@
     <meta name="keywords" content="{{ $pages->page_keywords }}">
     <meta name="url" content="{{ Request::url() }}">
     <meta name="language" content="RU">
+
+    {{--  OPEN GRAPH Meta  --}}
     <meta name="og:title" content="{{ $pages->page_title }}"/>
     <meta name="og:description" content="{{ $pages->page_description }}"/>
     <meta name="og:url" content="{{ Request::url() }}"/>
@@ -49,6 +52,7 @@
     <link rel="stylesheet" href="{{ asset('/css/contacts.css') }}">
 
     <script src="{{ asset('/js/preloader.js') }}"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeHua4UAAAAAKQqf5pIVyIFjlhWK9OyrpYQk4K8"></script>
 
 </head>
 <body>

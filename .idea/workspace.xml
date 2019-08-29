@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41067e0-2bd8-49a1-8f4c-ae093d482e71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminIndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminLogout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/email_layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/privacypolicy.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/privacypolicy/privacypolicy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/email/body_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/1_example_mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/mail_layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main_menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main_menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/service.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/service.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/work.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head_404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head_404.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/service/service.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/service/service.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +29,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Blade" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -152,6 +130,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -160,11 +139,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\brightandeasy.loc\public\img\email" />
       <recent name="D:\OSPanel\domains\brightandeasy.loc\public" />
       <recent name="D:\OSPanel\domains\brightandeasy.loc\public\img\errors" />
       <recent name="D:\OSPanel\domains\brightandeasy.loc\resources\views" />
       <recent name="D:\OSPanel\domains\brightandeasy.loc\public\js" />
-      <recent name="D:\OSPanel\domains\brightandeasy.loc\public\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -214,7 +193,12 @@
       <workItem from="1566556250776" duration="2195000" />
       <workItem from="1566648600498" duration="114000" />
       <workItem from="1566648844776" duration="126000" />
-      <workItem from="1566649010609" duration="937000" />
+      <workItem from="1566649010609" duration="2274000" />
+      <workItem from="1566804099838" duration="172000" />
+      <workItem from="1566826014422" duration="4195000" />
+      <workItem from="1566895001450" duration="4824000" />
+      <workItem from="1566994039978" duration="108000" />
+      <workItem from="1567066431890" duration="3011000" />
     </task>
     <servers />
   </component>
