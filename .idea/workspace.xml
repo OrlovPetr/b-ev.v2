@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41067e0-2bd8-49a1-8f4c-ae093d482e71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/email/body_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/1_example_mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/mail_layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/service/service.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/service/service.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +190,8 @@
       <workItem from="1566826014422" duration="4195000" />
       <workItem from="1566895001450" duration="4824000" />
       <workItem from="1566994039978" duration="108000" />
-      <workItem from="1567066431890" duration="3011000" />
+      <workItem from="1567066431890" duration="3514000" />
+      <workItem from="1567075620465" duration="1494000" />
     </task>
     <servers />
   </component>
